@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="appewtc.masterung.learnfragment1.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:text="Change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master UNG "
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtTitle" />
+
+</RelativeLayout>
